@@ -1,0 +1,30 @@
+
+.form-blocks > .fieldset > label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.fieldset-3__radio-wrapper {
+  margin-bottom: 10px;
+}
+
+.fieldset {
+  margin-bottom: 20px;
+}
+
+.form-blocks > .fieldset > :last-child {
+  margin-bottom: 0;
+}
+
+#fieldset-3__favorite-car {
+  overflow: hidden;
+  font-family: sans-serif;
+  font-size: 13px;
+  resize: none;
+  width: 32px;
+  line-height: 1.3em;
+}
+
+#fieldset-1__age {
+  width: 60px;
+}
