@@ -48,7 +48,8 @@
             type="number"
             name="age"
             value="12"
-            required min="12"
+            required
+            min="12"
           >
         </label>
 
@@ -143,12 +144,16 @@
 
         <label for="fieldset-3__favorite-car">
           What are your favorite brand of cars?
-          <textarea
-            id="fieldset-3__favorite-car"
+          <select
             name="favorite-car"
-            rows="4"
-          >BMW&#10;Audi&#13;Lada
-          </textarea>
+            id="fieldset-3__favorite-car"
+            multiple
+            size="4"
+          >
+            <option value="">BMW</option>
+            <option value="">Audi</option>
+            <option value="">Lada</option>
+          </select>
         </label>
 
         <label for="fieldset-3__work-rate">
